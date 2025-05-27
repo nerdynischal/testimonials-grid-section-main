@@ -1,0 +1,5 @@
+@use "../utilities/" as u;
+
+.card {
+  padding: u.rem(24);
+}
