@@ -11,8 +11,12 @@
 
   background: white;
   border-radius: u.rem(8);
-  box-shadow: u.rem(24) u.rem(24) u.rem(42) hsla(218, 18%, 27%, 0.123);
+  box-shadow: u.rem(24) u.rem(24) u.rem(42) hsla(216, 18%, 27%, 0.31);
   position: relative;
+
+  @include u.breakpoint(xlarge) {
+    box-shadow: u.rem(32) u.rem(72) u.rem(64) hsla(216, 18%, 27%, 0.236);
+  }
 }
 
 .icon-container {
