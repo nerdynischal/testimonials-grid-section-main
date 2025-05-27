@@ -16,7 +16,8 @@
   background: var(--purple-500);
   color: var(--purple-300);
 
-  .headline {
+  .headline,
+  .author .name {
     color: var(--purple-50);
   }
 
