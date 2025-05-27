@@ -1,3 +1,28 @@
+@use "../utilities/" as u;
+
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.name,
+.headline {
+  font-weight: 600;
+}
+
+.headline {
+  font-size: u.rem(20);
+}
+
+.quote,
+.title {
+  font-weight: 500;
+  font-size: u.rem(14);
+}
+
+.quote {
+  line-height: 1.4;
+}
+
+.title {
+  margin-top: u.rem(2);
 }
