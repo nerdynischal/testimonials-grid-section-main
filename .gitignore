@@ -37,4 +37,4 @@ npm-debug.log*
 *.pem
 .DS_Store
 Thumbs.db
-.style-guide.md
+style-guide.md
