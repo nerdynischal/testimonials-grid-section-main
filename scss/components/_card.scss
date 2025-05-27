@@ -7,6 +7,65 @@
   place-self: center;
   gap: u.rem(24);
 
-  background: lightgray;
+  background: white;
   border-radius: u.rem(8);
+  box-shadow: u.rem(24) u.rem(24) u.rem(42) hsla(218, 18%, 27%, 0.123);
+}
+
+.purple {
+  background: var(--purple-500);
+  color: var(--purple-300);
+
+  .headline {
+    color: var(--purple-50);
+  }
+
+  .author .profile-pic {
+    border-color: var(--purple-300);
+  }
+}
+
+.blue-gray {
+  background: var(--grey-500);
+  color: var(--grey-200);
+
+  .headline,
+  .author .name {
+    color: var(--grey-100);
+  }
+
+  .author .profile-pic {
+    border-color: var(--grey-200);
+  }
+}
+
+.dark-gray {
+  background: var(--dark-blue);
+  color: var(--grey-200);
+
+  .headline,
+  .author .name {
+    color: var(--grey-100);
+  }
+
+  .author .profile-pic {
+    border-color: var(--purple-500);
+  }
+}
+
+.white {
+  color: var(--grey-400);
+
+  .headline,
+  .author .name {
+    color: var(--grey-500);
+  }
+
+  .author .title {
+    color: var(--grey-200);
+  }
+
+  .author .profile-pic {
+    border-color: var(--white);
+  }
 }
