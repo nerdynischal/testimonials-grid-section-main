@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code](https://github.com/nerdynischal/testimonials-grid-section-main)
-- Live Site URL: [Live site preview](https://your-live-site-url.com)
+- Live Site URL: [Live site preview](https://nerdynischal.github.io/testimonials-grid-section-main/)
 
 ## My process
 
