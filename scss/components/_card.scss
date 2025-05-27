@@ -12,6 +12,20 @@
   background: white;
   border-radius: u.rem(8);
   box-shadow: u.rem(24) u.rem(24) u.rem(42) hsla(218, 18%, 27%, 0.123);
+  position: relative;
+}
+
+.icon-container {
+  display: none;
+  height: u.rem(32);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 10%;
+
+  @include u.breakpoint(xlarge) {
+    display: initial;
+  }
 }
 
 .purple {
