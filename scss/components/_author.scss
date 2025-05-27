@@ -1,0 +1,16 @@
+@use "../utilities/" as u;
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: u.rem(16);
+
+  .profile-pic {
+    border: u.rem(2) solid red;
+    border-radius: 50%;
+    img {
+      border-radius: 50%;
+      height: u.rem(32);
+    }
+  }
+}

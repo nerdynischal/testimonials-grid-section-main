@@ -1,0 +1,18 @@
+@use "../utilities/" as u;
+
+body {
+  margin: u.rem(64) u.rem(24);
+}
+
+.grid-container {
+  grid-template-rows: auto;
+}
+
+.grid-container,
+.grid-column-1,
+.grid-column-2,
+.grid-row-1,
+.grid-row-2 {
+  display: grid;
+  gap: u.rem(32);
+}
