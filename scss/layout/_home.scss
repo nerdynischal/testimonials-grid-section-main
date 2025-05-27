@@ -3,10 +3,24 @@
 body {
   margin: u.rem(64) u.rem(24);
   background: var(--grey-100);
+
+  @include u.breakpoint(xlarge) {
+    margin: u.rem(200) u.rem(120);
+  }
 }
 
 .grid-container {
   grid-template-rows: auto;
+  max-width: u.rem(1500);
+  margin: 0 auto;
+
+  @include u.breakpoint(xlarge) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @include u.breakpoint(large) {
+    grid-template-columns: 2fr 1fr;
+  }
 }
 
 .grid-container,
@@ -16,4 +30,16 @@ body {
 .grid-row-2 {
   display: grid;
   gap: u.rem(32);
+}
+
+.grid-row-1 {
+  @include u.breakpoint(xlarge) {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.grid-row-2 {
+  @include u.breakpoint(xlarge) {
+    grid-template-columns: 1fr 2fr;
+  }
 }
